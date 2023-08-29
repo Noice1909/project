@@ -1,0 +1,130 @@
+.user-details-with-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    margin-top: 8px;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .user-photo img {
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 40px;
+  }
+  
+  .user-details {
+    margin-left: 20px;
+  }
+  
+  .user-details h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .user-details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+  }
+
+  .user-details-select {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    /* position: relative; */
+    width: 60%;
+    z-index: 2;
+    border: none; 
+    border-radius: 10px;
+}
+
+.user-details-select option {
+  font-size: 14px;
+}
+
+.user-details-select ~ .balance-label {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.user-details-select ~ .selected-account-info {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.box-decoration {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 130px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-width: 150px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin: 40px;
+}
+
+.image-upload-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.image-upload-input {
+  display: none;
+}
+
+.image-upload-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.image-upload-button:hover {
+  background-color: #3e8e41;
+}
+
+.img-display-before {
+  height: 200px;
+  width: 200px;
+  margin-left: 35px;
+}
+
+.img-display-after {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}

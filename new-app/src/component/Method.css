@@ -1,0 +1,94 @@
+.transaction-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .transaction-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .transaction-options label {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .transaction-form {
+    margin-top: 20px;
+  }
+  
+  .transaction-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-form label {
+    /* display: block; */
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .account-number-select{
+    align-items: flex-start;
+  }
+  .transaction-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .account-number-select {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    border: none; 
+    border-radius: 10px;
+}
+
+.account-number-select option {
+  font-size: 14px;
+}
+
+.account-number-select ~ .balance-label {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.user-details-select ~ .selected-account-info {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+  @media (min-width: 768px) {
+    .transaction-options {
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .transaction-options label {
+      font-size: 18px;
+    }
+  }
+  

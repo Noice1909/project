@@ -1,0 +1,82 @@
+.styled-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .dropdown-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+  .dropdown-container select{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .table-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; /* Align items at the end */
+    justify-content: space-between; /* Create space between h2 and paragraph div */
+    margin-right: 20px;
+  }
+  .table-head {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .paragraph-set {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 10px; 
+    padding-left: 20px ;
+  }
+  
+  .paragraph-set p {
+    margin: 0; /* Reset margin to avoid unwanted spacing */
+  }
+  .styled-table td, .styled-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .styled-table tr:nth-child(odd) {
+    background-color: #f2f2f2;/* Off-white color for odd rows */
+  }
+  
+  .styled-table tr:nth-child(even) {
+    background-color: #e0e0e0; /* A different shade for even rows */
+  }
+  
+  .styled-table tr:hover {
+    background-color: rgb(127, 197, 238);
+  }
+  
+  .styled-table thead th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0382f0;
+    color: white;
+  }
+  
+  .transaction-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* margin: auto; */
+    margin-top: 1%;
+    /* min-width: 350px; */
+    /* width: 35%; */
+    background: #fff;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
